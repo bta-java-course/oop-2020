@@ -1,4 +1,4 @@
-package com.buseduc.javacourse.oop2020.topic_01.task18_pr.topic_01;
+package com.buseduc.javacourse.oop2020.topic_01.task18_pr;
 
 import java.util.Arrays;
 
