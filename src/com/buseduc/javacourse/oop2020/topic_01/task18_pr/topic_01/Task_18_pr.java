@@ -1,8 +1,8 @@
-package com.buseduc.javacourse.oop2020.topic_01.task03_pr.topic_01;
+package com.buseduc.javacourse.oop2020.topic_01.task18_pr.topic_01;
 
 import java.util.Arrays;
 
-public class Task_03_pr {
+public class Task_18_pr {
 
     /**
      * @author pr
@@ -29,8 +29,8 @@ public class Task_03_pr {
         arr[0]=0;
         arr[1]=1;
         arr[2]=2;
-        System.out.println("Array "+ Arrays.toString(arr));
-        System.out.println("contains following Fibonacci numbers: ");
+        System.out.println("Array "+ Arrays.toString(arr)+"\n contains following Fibonacci numbers: ");
+      //  System.out.println("contains following Fibonacci numbers: ");
         long fib13 = 2;
         long i = 2;
         while (i < nfmax ) {
