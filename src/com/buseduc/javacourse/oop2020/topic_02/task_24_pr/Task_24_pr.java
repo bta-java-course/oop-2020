@@ -5,6 +5,7 @@ package com.buseduc.javacourse.oop2020.topic_02.task_24_pr;
  * Задание 24. Перестроить таблицу чисел (4 Х 4), переставляя в ней столбцы так, чтобы сумма модулей элементов в столбцах полученной таблицы возрастала.
 
  */
+
 import java.util.Arrays;
 
 public class Task_24_pr {
@@ -25,7 +26,7 @@ public class Task_24_pr {
         }
 
         for(int j = 0; j < nm; j++) {
-            System.out.println(  Arrays.toString(matrix[j])); }  System.out.println(" Sum of absolute values ??of the elements in the columns ");
+            System.out.println(  Arrays.toString(matrix[j])); }  System.out.println(" Sum of absolute values of the elements in the columns ");
 
         trm(matrix,nm);
 
