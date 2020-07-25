@@ -62,16 +62,16 @@ public class Task_12_pr {
 
        // System.out.println(asd[0] + " "+asd[74]);
 
-        System.out.println(" Shortest words ");
+        System.out.println(" Shortest words: ");
 
-        for ( int i1 = 0; i1 < 75; i1++) {
+        for ( int i1 = 0; i1 < size; i1++) {
             if (tokens[i1].length()==asd[0])
 
                 System.out.println(tokens[i1] + " ");
         }
-        System.out.println(" Longest words ");
-        for ( int i1 = 0; i1 < 75; i1++) {
-            if (tokens[i1].length()==asd[74])
+        System.out.println(" Longest words: ");
+        for ( int i1 = 0; i1 < size; i1++) {
+            if (tokens[i1].length()==asd[size-1])
 
                 System.out.println(tokens[i1] + " ");
         }
