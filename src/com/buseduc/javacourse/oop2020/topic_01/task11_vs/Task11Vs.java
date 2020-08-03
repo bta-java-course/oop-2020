@@ -15,7 +15,7 @@ public class Task11Vs {
         NumberInput input = new NumberInput();
         input.getNumbersFromKeyboard();
         Sorter sorter = new Sorter();
-        List<Integer> sortedInput = sorter.sortAsc(input.getNumbers());
+        List<Integer> sortedInput = sorter.sortDesc(input.getNumbers());
         System.out.println(sortedInput);
 
 
