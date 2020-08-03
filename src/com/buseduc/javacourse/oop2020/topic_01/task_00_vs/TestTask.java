@@ -1,6 +1,6 @@
 package com.buseduc.javacourse.oop2020.topic_01.task_00_vs;
 
-import java.util.Scanner;
+        import java.util.Scanner;
 
 public class TestTask {
 
