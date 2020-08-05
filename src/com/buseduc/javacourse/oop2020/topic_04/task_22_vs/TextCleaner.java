@@ -5,8 +5,31 @@ import java.util.List;
 
 public class TextCleaner {
     public String doClean(String inputText) {
-        System.out.println(analyze(inputText).toString());
-        return inputText;
+        List<TextElement> result = analyze(inputText);
+        result = clean(result);
+        String res = "";
+        for(TextElement elem: result) {
+            res += elem;
+        }
+        return res;
+    }
+
+    List<TextElement> clean(List<TextElement> input) {
+        TextElement previous = null;
+        List<TextElement> result = new ArrayList<>();
+        for(TextElement next : input) {
+            if(previous instanceof Space) {
+                if(next instanceof Word) {
+                    result.add(previous);
+                }
+            } else if(previous != null){
+                result.add(previous);
+            }
+            previous = next;
+        }
+
+        return result;
+
     }
 
     List<TextElement> analyze(String inputText) {
