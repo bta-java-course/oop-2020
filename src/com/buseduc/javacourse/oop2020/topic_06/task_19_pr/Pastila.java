@@ -1,6 +1,7 @@
 package com.buseduc.javacourse.oop2020.topic_06.task_19_pr;
 
 public class Pastila extends Slad {
+
     private String color;
 
     public Pastila (String name, double price, double encost, double weight, double sugar, String color){

@@ -7,6 +7,7 @@ public class Slad {
     private double weight;
     private double sugar;
 
+    
     public Slad (String name, double price, double encost, double weight, double sugar){
         this.name = name;
         this.price = price;

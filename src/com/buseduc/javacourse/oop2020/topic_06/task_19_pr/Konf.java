@@ -1,5 +1,6 @@
 package com.buseduc.javacourse.oop2020.topic_06.task_19_pr;
 
+
 public class Konf extends Slad{
 
     private	String type;
