@@ -96,7 +96,10 @@ public class Task_19_pt {
         //}
         ////////////////////////////////////////////////////////////////////
 
+        double ves=0;
+
         for (int i = 0; i < gift.size(); i++) {
+            ves=ves+array[i].getWeight();
 
             // if (array[i] instanceof Pastila) {break;}
 
@@ -133,6 +136,9 @@ public class Task_19_pt {
                 System.out.println(array[i]);
             }
         }
+
+        System.out.println("....................................... ");
+        System.out.println("Weight of the gift: "+ ves);
 
     }
 }
