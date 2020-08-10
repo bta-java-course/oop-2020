@@ -18,8 +18,7 @@ public class Task7Vs {
         Doctor doc1 = new Doctor();
         Doctor doc2 = new Surgeon();
         Doctor doc3 = new NeuroSurgeon();
-        List<Doctor> dutyDoctors = Arrays.asList(doc1, doc2, doc3);
-        for (Doctor doc: dutyDoctors) {
+        for (Doctor doc: Arrays.asList(doc1, doc2, doc3)) {
             int rnd = (int) (Math.random() * 30);
             doc.setCheckedPatientsNum(rnd);
             System.out.println("Num of patients : " + rnd + ", is finished: " + doc.isAllPatientsChecked());
